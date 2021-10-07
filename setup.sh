@@ -20,6 +20,7 @@ else
 fi
 
 poetry install
+pre-commit install
 pre-commit run -a
 
 echo 'You are ready to go!'
